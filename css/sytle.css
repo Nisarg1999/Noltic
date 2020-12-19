@@ -1,0 +1,440 @@
+/*navbar*/
+.navbar{
+    background-color: hsl(221, 44%, 10%);
+    font-family: 'Karla', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0px;
+}
+
+.container-fluid{
+    padding: 0% 12%;
+}
+
+.collapse{
+    width: fit-content;
+    float: left;
+}
+.brand-image{
+    width: 20%;
+}
+
+.navbar-brand{
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 0px;
+}
+
+.nav-item{
+    margin: 0 10px;
+}
+
+.nav-link{
+    color: white;
+}
+/*heading section*/
+.heading-div{
+    background-color: hsl(221, 44%, 10%);
+    height: 100%;
+    width: 100%;
+}
+
+.heading-section{
+    display: flex;
+    padding: 12% 12%;
+    padding-bottom: 9%;
+    position: relative;
+    z-index: 0;
+}
+
+h1{
+    color: white;
+    font-weight: 700;
+    font-size: 48px;
+    padding-bottom: 60px;
+}
+p{
+    color:hsl(228, 4%, 77%);
+    font-size: 20px;
+}
+.heading-mess{
+    padding-bottom: 50px;
+    width: 45%;
+}
+
+.heading-message-section{
+    width: 65%;
+}
+
+.heading-image-section{
+    width: 45%;
+    height: 60%;
+    position: absolute;
+    z-index: -1;
+    left: 44%;
+}
+
+.heading-button{
+    padding: 2.5% 9%;
+    background-color: hsl(217, 85%, 47%);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border-width: 0px;
+}
+
+.heading-image{
+    height: 100%;
+    width: 100%;
+}
+/*certified-company-section*/
+
+.certified-company-section{
+    background-color: hsl(219, 38%, 13%);
+}
+
+.certified-company{
+    position: relative;
+    padding: 7% 12% 7%;
+}
+
+.silver-image{
+    position: absolute;
+    height: 130px;
+    width: 130px;
+    right: 12%;
+    border-radius: 10px;
+}
+
+.company-heading{
+    width: 60%;
+}
+
+.company-message{
+    padding-bottom: 50px;
+    width: 30%;
+}
+
+.comman{
+    color: hsl(217, 100%, 80%);
+    height: 2px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.detail{
+    display: flex;
+}
+
+.info{
+    width: 25%;
+    padding: 20px 50px 0px 0 ;
+}
+
+.number{
+    padding-bottom: 0px;
+    color: hsl(217, 100%, 80%);
+    font-size: 48px;
+    margin-bottom: 0px;
+}
+
+/* full info section*/
+
+.full-info-section{
+    background-color: hsl(221, 44%, 10%);
+}
+
+.section-3{
+    padding: 7% 12% 10%;
+}
+
+.section-3-heading{
+    width: 50%;
+}
+
+.secition-3, p{
+    width: 30%;
+    padding-bottom: 30px;
+}
+
+.box{
+    display: flex;
+}
+
+.solutions-box{
+    background-color: hsl(219, 38%, 13%);
+    width: 33.33%;
+    padding: 2.5% 3%;
+    margin: 0 30px 0 0;
+}
+
+.fas{
+    color: hsl(217, 100%, 80%);
+    margin: 30px 0px
+}
+
+.box h5{
+    color: white;
+    padding-bottom: 20px;
+}
+
+.box p{
+    width: 100%;
+}
+
+/*second div*/
+
+.second-div{
+    padding-top: 20%;
+    position: relative;
+    z-index: 0;
+}
+.what-we-do{
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 45%;
+    height: 420px;
+    width: 640px;
+}
+.second-div h5{
+    color: white;
+    padding-bottom: 20px;
+}
+
+.second-div .keyword{
+    color: hsl(217, 100%, 80%);
+    border-radius: 7px;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px 20px;
+    margin-right: 20px;
+}
+
+.second-div p {
+    width: 65%;
+    padding-bottom: 10px;
+}
+
+.second-div .keyword-section{
+    display: flex ;
+    margin-bottom: 20px;
+}
+
+.short{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 65%;
+}
+
+/*3rd Div*/
+
+.two-box{
+    display: flex;
+}
+.boxes{
+    background-color: hsl(219, 38%, 13%);
+    width: 50%;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+.third-div h1{
+    margin-top: 20%;
+    width: 65%;
+    margin-bottom: 50px;
+}
+
+.boxes h5{
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.box-mess{
+    width: 100%;
+}
+
+/*section 4*/
+
+.review-section{
+    background-color: hsl(219, 38%, 13%);
+}
+
+.review-heading{
+    display: flex;
+    padding-top: 12%;
+}
+
+.review-heading h1 {
+    width: 65%;
+}
+
+.design-rush{
+    width: 150px;
+    height: 50px;
+}
+
+.review-company{
+    display: flex;
+    padding-bottom: 10%;
+}
+
+.companeies{
+    width: 33.33%;
+    background-color: white;
+    margin-right: 30px;
+    padding: 40px 40px;
+}
+
+.companies-mess,.companies-mess-3{
+    margin-top: 30px;
+    width: 100%;
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    padding-bottom: 0px;
+
+}
+
+.companies-mess-3{
+    font-size: 20px;
+    margin-top: 16px;
+}
+
+.companies-logo{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/*section 5*/
+
+.founders-info{
+    display: flex;
+}
+
+.founders{
+    background-color: hsl(221, 44%, 10%);
+}
+
+.founders-section{
+    padding-top: 8%;
+    padding-bottom: 10%;
+}
+
+.founder-heading{
+    width: 65%;
+}
+
+.founder{
+    width: 33.33%;
+    margin-right: 30px;
+    margin-top: 8%;
+}
+
+.founder-image{
+    width: 100%;
+}
+
+.founder h5{
+    color: white;
+    margin: 30px 10px 10px 0;
+}
+
+.founder h6{
+    color: hsl(217, 100%, 80%);
+}
+
+.founder p{
+    width: 100%;
+}
+
+/*join section*/
+
+.join-section{
+    background-color: hsl(219, 38%, 13%);
+    display: flex;
+    padding: 3% 7%;
+    justify-content: center;
+    text-align: center;
+}
+
+.join-section h3{
+    color: white;
+    margin-right: 30px;
+    font-size: 23px;
+    padding-top: 18px;
+}
+
+.join-section .heading-button{
+    font-size: 18px;
+    padding: 20px 40px;
+    background-color: transparent;
+    border-color:  hsl(217, 85%, 47%);
+    color:  hsl(217, 85%, 47%);
+    border-width: 2px;
+    border-style: solid;
+}
+
+.team-image{
+    width: 100%;
+}
+
+/*last section*/
+
+.last-section{
+    background-color: hsl(221, 44%, 10%);
+    padding: 4% 8% 10%;
+    justify-content: center;
+    text-align: center;
+}
+
+.last-section h3{
+    color: white;
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+
+.last-section .heading-button{
+    padding: 20px 60px;
+    background-color: hsl(217, 85%, 47%);
+}
+
+.social{
+    background-color: hsl(221, 44%, 10%);
+}
+
+.social-acc{
+    width: fit-content;
+    display: flex;
+    float: left;
+    
+}
+
+.social-acc p{
+    color:  hsl(217, 85%, 47%);
+    margin-right: 15px;
+    padding-top: 10px;
+}
+
+.social-acc .fab{
+    color:  hsl(217, 85%, 47%);
+    margin-right: 10px;
+    padding-top: 9px;
+}
+
+.scial-link{
+display: flex;
+}
+
+.last-one{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+
+}
+.copyright{
+    width: 100%;
+}
